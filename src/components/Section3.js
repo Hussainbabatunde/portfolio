@@ -1,5 +1,10 @@
 import React, {useEffect} from "react";
 import reactlogo from "./react.png";
+import html from "./html.png";
+import javascript from "./javascript.png";
+import css from "./css.png";
+import python from "./python.png";
+import typescript from "./typescript.png";
 import "./sec2.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,27 +28,27 @@ const Section3= () => {
       }, []);
     return(
         <div>
-            <p style={{color: "#471111", fontSize:"30px", marginTop:"40px", textAlign:"center", marginBottom:"0"}}>MY SKILLS</p>
+            <p style={{color: "#471111", fontSize:"24px", marginTop:"40px", textAlign:"center", marginBottom:"0"}}>MY SKILLS</p>
             <div className="sec3">
-                <img src={reactlogo} alt="logo" data-aos="fade-right" />
-                <img src={reactlogo} alt="logo" data-aos="fade-up"/>
-                <img src={reactlogo} alt="logo" data-aos="fade-left"/>
+                <img src={html} alt="logo" data-aos="fade-up" />
+                <img src={css} alt="logo" data-aos="fade-up"/>
+                <img src={javascript} alt="logo" data-aos="fade-up"/>
             </div>
             <div className="sec3">
                 <img src={reactlogo} alt="logo" data-aos="fade-up" />
-                <img src={reactlogo} alt="logo" data-aos="fade-down"/>
-                <img src={reactlogo} alt="logo" data-aos="fade-up"/>
+                <img src={typescript} alt="logo" data-aos="fade-up"/>
+                <img src={python} alt="logo" data-aos="fade-up"/>
             </div>
             <div className="sec4">
-            <p style={{color: "#471111", fontSize:"30px", marginTop:"20px", textAlign:"center", marginBottom:"0", paddingTop:"40px"}} data-aos="fade-right">MY WORKS</p>
+            <p style={{color: "#471111", fontSize:"24px", marginTop:"20px", textAlign:"center", marginBottom:"0", paddingTop:"40px"}} data-aos="fade-right" id="works">MY WORK</p>
             <p style={{marginTop:"20px",textAlign:"center"}} data-aos="fade-right">Click on images to view website</p>
             <div className="movies">
-            <a href="https://movie-streaming-app-f4013.web.app  "><img src={movie} width="400" height="300" alt="movie"/></a>
-            <a href="https://ecommerce-website-90d14.web.app/home" style={{marginBottom:"50px"}}><img src={music} width="400" height="300" alt="music"/></a>
+            <a href="https://movie-streaming-app-f4013.web.app  "><img src={movie} width="400" className="tundemovies2"  height="300" alt="movie"/></a>
+            <a href="https://ecommerce-website-90d14.web.app/home" style={{marginBottom:"50px"}}><img src={music} className="tundemovies" width="400" height="300" alt="music"/></a>
             </div>
             </div>
             <div>
-            <p style={{color: "#471111", fontSize:"30px", marginTop:"40px", display:"flex", justifyContent:"flex-start", margin:"0 90px"}}>{letters}</p>
+            <p style={{color: "#471111", fontSize:"30px", marginTop:"40px", display:"flex", justifyContent:"flex-start", margin:"0 90px"}} id="contact">{letters}</p>
             <div className="sec5">
                 <input type="text" placeholder="Name" className="sec5_input"/>
                 <input type="email" placeholder="Email" className="sec5_input1"/>

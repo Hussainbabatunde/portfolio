@@ -58,3 +58,53 @@
     background: rgba(71, 17, 17, 0.05);
     border: 1px solid gray;
 }
+@media (max-width: 700px){
+    .sec2_whole{
+        flex-direction: column;
+    }
+    .tundeimg{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutme{
+        margin-left: 20px;
+        width: 390px !important;
+    }
+    .about_words{
+        width:390px;
+    }
+    .movies{
+        flex-direction: column;
+    }
+    .tundemovies{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 900px){
+    .sec2_whole{
+        flex-direction: column;
+    }
+    .tundeimg{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutme{
+        margin-left: 30px;
+        width: 100% !important;
+    }
+    .about_words{
+        width:100%;
+    }
+    .movies{
+        flex-direction: column;
+    }
+    .tundemovies{
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .tundemovies2{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
