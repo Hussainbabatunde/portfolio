@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import reactlogo from "./react.png";
 import html from "./html.png";
-import javascript from "./javascript.png";
+import java from "./java.png";
 import css from "./css.png";
 import python from "./python.png";
 import typescript from "./typescript.png";
@@ -9,7 +9,7 @@ import "./sec2.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import movie from "./movie.png";
+import movie from "./movies.png";
 import music from "./music.png";
 import {FiLinkedin} from "react-icons/fi";
 import {BsGithub} from "react-icons/bs";
@@ -32,7 +32,7 @@ const Section3= () => {
             <div className="sec3">
                 <img src={html} alt="logo" data-aos="fade-up" />
                 <img src={css} alt="logo" data-aos="fade-up"/>
-                <img src={javascript} alt="logo" data-aos="fade-up"/>
+                <img src={java} alt="logo" data-aos="fade-up"/>
             </div>
             <div className="sec3">
                 <img src={reactlogo} alt="logo" data-aos="fade-up" />
