@@ -84,7 +84,7 @@ const Section3= () => {
             </div>
             </div>
             <div>
-            <p style={{color: "#471111", fontSize:"30px", marginTop:"40px", display:"flex", justifyContent:"flex-start", margin:"0 90px"}} id="contact">{letters}</p>
+            <p style={{color: "#471111", fontSize:"30px", marginTop:"40px", display:"flex", justifyContent:"flex-start", margin:"0 90px", fontWeight:"600"}} id="contact">{letters}</p>
             <div className="sec5">
                 <input type="text" placeholder="Name" className="sec5_input"/>
                 <input type="email" placeholder="Email" className="sec5_input1"/>

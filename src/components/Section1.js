@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import "./sec1.css";
 import laptopfront from "./laptopfront.png";
-import tunde from "./tundecv.pdf"
+import tunde from "./current_tunde.pdf"
 
 
 const Section1 = () => {
