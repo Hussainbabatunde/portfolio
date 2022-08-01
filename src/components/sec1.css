@@ -49,6 +49,12 @@
     .tunde_summary{
         width: 400px;
     }
+    .sec1_img{
+        margin-top: 30px;
+        width: 290px !important;
+        margin: 0 auto;
+        height: 230px;
+    }
 }
 @media (max-width: 1000px){
     .sec1_img{
