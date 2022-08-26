@@ -34,8 +34,8 @@
 }
 .movies{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .sec5{
     display: flex;
@@ -65,10 +65,24 @@
     overflow: hidden;
     margin: 120px 0 0 0;
 }
+.boxthi2{
+    width: 467.85px;
+    height: 440px;
+    background-image: url("./iptracker.png");
+    border-radius: 10px;
+    margin-left: 15px;
+    position: relative;
+    top: -95px;
+    overflow: hidden;
+    margin: 120px 0 0 0;
+}
 .boxthi:hover > .hidden_boxthi{
     top: 0;
   }
   .boxthi1:hover > .hidden_boxthi1{
+    top: 0;
+  }
+  .boxthi2:hover > .hidden_boxthi2{
     top: 0;
   }
 .hidden_boxthi{
@@ -82,6 +96,16 @@
   align-items: center;
 }
 .hidden_boxthi1{
+    top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  background: rgba(128, 128, 128, 0.89);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden_boxthi2{
     top: 100%;
   position: relative;
   transition: all .3s ease-out;
@@ -145,6 +169,10 @@
         width: 380px;
         margin: 45px auto ;
     }
+    .boxthi2{
+        width: 380px;
+        margin: 45px auto ;
+    }
     .tundemovies{
         margin-top: 20px;
     }
@@ -168,6 +196,9 @@
         flex-direction: column;
     }
     .boxthi{
+        margin: 85px auto ;
+    }
+    .boxthi2{
         margin: 85px auto ;
     }
     .boxthi1{
